@@ -17,8 +17,8 @@ Password: ass2dms
 Upon launching the application the user will be presented with a login screen. Three accounts are available in the database. Login in details are case sensitive. <br /><br />
 
 Use this login <br />
-Username: dms <br />
-Password: assignment2 <br /><br />
+Username: warrick <br />
+Password: warrick <br /><br />
 
 When successfully logged in the shopping cart app functions in a similar manner to most online shopping applications. Pages are navigated using buttons provided at the top and bottom of each page. <br /><br />
   
