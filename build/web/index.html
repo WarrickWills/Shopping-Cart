@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+    Document   : index
+    Description: This is the login page
+    Created on : 20/04/2016
+    Authors    : Adam 0813664; Warrick 13831575
+-->
+<html>
+    <head>
+        <title>Login Shopping Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div {
+                margin-left:auto;
+                margin-right:auto;
+            }
+            div.form {
+                background-color: #4ddbff;
+                border: 3px solid blue;
+                padding: 5px 5px;
+                text-align: center;
+            }
+            input.formBut {
+                background-color: #0000ff;
+                color: white;
+                padding: 7px 45px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+                width: 15%;
+            }
+        </style>
+    </head>
+    <body style="background-color:#b3ffff;">
+        <table style="width:100%;" cellpadding="10">
+            <tr>
+                <td style="background-color:#3F95EB;" >
+            <center>
+                <img src="images/musiclogo.jpg" alt="" width="60" height="50">
+                <font size="30px" style="font-weight:bold;vertical-align:top;color:white;">Instrument Shopping Cart</font>
+            </center>
+        </td>
+    </tr>
+</table>
+<div style="width:60%;float:center;">
+    <form action="LoginServlet" method="POST">
+        <br />
+        <div class = "form">
+            <label><b>User Name:</b>
+                <input type="text" name="username" placeholder = "Enter user name here" required>
+            </label>
+            <br />
+            <br />
+            <label><b>Password:</b>
+                <input type="password" name="password" placeholder = "Enter password here" required>
+            </label>
+            <br />
+            <br />
+            <div align="center">
+                <input type="submit" value="Log in" class="formBut">
+            </div>
+        </div>
+    </form>
+    <br />
+    <br />
+    <div class = "form">
+        <p>
+            Welcome to the the instrument shopping cart, home of musical instruments for purchase at a discount
+            for registered private instructors. Please log in above with your ministry designated username and password.
+        </p>
+    </div>
+</div>
+</body>
+</html>
